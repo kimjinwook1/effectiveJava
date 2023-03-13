@@ -1,5 +1,7 @@
 package hello.effectivejava.Chap2_객체_생성과_파괴.item2;
 
+import lombok.Builder;
+
 public class NyPizza extends Pizza {
 
     public enum Size {SMALL, MEDIUM, LARGE}
